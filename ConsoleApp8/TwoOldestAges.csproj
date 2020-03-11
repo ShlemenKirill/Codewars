@@ -11,4 +11,8 @@
     <Compile Include="C:\Users\Кирилл\Desktop\CodeWars\Two Oldest Ages.cs" Link="Two Oldest Ages.cs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="3.12.0" />
+  </ItemGroup>
+
 </Project>
