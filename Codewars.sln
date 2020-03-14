@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UFC", "UFC\UFC.csproj", "{9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Convert number to reversed array of digits", "Convert number to reversed array of digits\Convert number to reversed array of digits.csproj", "{3C4E5E89-3AFE-4C4B-B1A6-49049AC804F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Count the Monkeys!", "Count the Monkeys!\Count the Monkeys!.csproj", "{AB68A64D-865E-418A-93CF-DC727FC6179C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{3C4E5E89-3AFE-4C4B-B1A6-49049AC804F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C4E5E89-3AFE-4C4B-B1A6-49049AC804F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C4E5E89-3AFE-4C4B-B1A6-49049AC804F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB68A64D-865E-418A-93CF-DC727FC6179C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB68A64D-865E-418A-93CF-DC727FC6179C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB68A64D-865E-418A-93CF-DC727FC6179C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB68A64D-865E-418A-93CF-DC727FC6179C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
