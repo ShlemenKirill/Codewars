@@ -8,20 +8,17 @@ namespace Find_the_first_non_consecutive_number
     {
         public static object FirstNonConsecutive(int[] arr)
         {
-            
+            int a = 0;
             List<int> list = new List<int>();
-            for (int i = 0; i < arr.Length; i++)
-            {
-                
-                if (list.IndexOf(arr[i]) != arr[i-1])
-                {
-                    list.Add(arr[i]);
-                    
-                    
-                }
-                
+            for (int i = 1; i < arr.Length; i++)
+            {                
+                if ((arr[i]<arr.Length+1)&&(arr[i-1]+1 != arr[i]))
+                {                    
+                    a = arr[i];                   
+
+                }                
             }
-            return list.ToArray();
+            return a; 
         }
         static void Main(string[] args)
         {
