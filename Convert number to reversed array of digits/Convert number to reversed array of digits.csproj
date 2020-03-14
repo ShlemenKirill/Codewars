@@ -6,4 +6,8 @@
     <RootNamespace>Convert_number_to_reversed_array_of_digits</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="3.12.0" />
+  </ItemGroup>
+
 </Project>
