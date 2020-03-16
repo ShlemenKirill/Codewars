@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "List Filtering", "List Filt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A Rule of Divisibility by 7", "A Rule of Divisibility by 7\A Rule of Divisibility by 7.csproj", "{03F0A2E1-EBE8-4DB4-816E-7A9D8B21EED0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sort the odd", "Sort the odd\Sort the odd.csproj", "{B813F4D8-2C27-4A9F-BB38-C7294085E0D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{03F0A2E1-EBE8-4DB4-816E-7A9D8B21EED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03F0A2E1-EBE8-4DB4-816E-7A9D8B21EED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03F0A2E1-EBE8-4DB4-816E-7A9D8B21EED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B813F4D8-2C27-4A9F-BB38-C7294085E0D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B813F4D8-2C27-4A9F-BB38-C7294085E0D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B813F4D8-2C27-4A9F-BB38-C7294085E0D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B813F4D8-2C27-4A9F-BB38-C7294085E0D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
