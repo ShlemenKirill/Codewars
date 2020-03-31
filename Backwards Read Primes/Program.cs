@@ -7,38 +7,52 @@ namespace Backwards_Read_Primes
     public class BackWardsPrime
     {
 
-        public static string backwardsPrime(int start, int end)
+        public static string backwardsPrime(long start, long end)
         {
-            string result = null;
+            string res = "";
+            for (long i = start; i <= end; i++)
+            {
+                if (IsPrime(i)&&IsPrime(Revers(i))&& i!=Revers(i))
+                {
+                    res = res + i + " ";
+
+                }
+            }           
             
-            List<long> list = new List<long>();
-
-            for (int i = 2; i < end; i++)
-            {
-                bool res = true;
-                for (int j = 2; j < i; j++)
+            return res.Trim();
+        }
+        
+        public static bool IsPrime(long number)
+        {
+            
+            if (number > 2 && number % 2 == 0) return false;
+            int top = (int)Math.Sqrt(number) + 1;
+                for (long j = 3; j < top; j+=2)
                 {
-                    
-                    if (i%j == 0)
+
+                    if (number % j == 0)
                     {
-                        res = false;
-                        break;
+                       return false;
+                       
                     }
+
+                }              
+                
+            return true;
+        }
+        public static long Revers(long number)
+        {
+            string s = "";                        
+
+                while (number > 0)
+                {                    
+                    s += number % 10;
+                    number /= 10;
                     
                 }
-                if (res == true)
-                {
-                    list.Add(i);
-                }
 
-
-            }
-            for (int k = 0; k < list.Count; k++)
-            {
-                Console.WriteLine(list[k]);
-                Console.ReadKey();
-            }
-            return result;
+            
+            return long.Parse(s);
         }
     }
     class Program
